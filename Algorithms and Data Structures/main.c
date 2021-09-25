@@ -6,9 +6,9 @@
 //
 
 #include <stdio.h>
+#include "homeWork4.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    homeWork4();
     return 0;
 }
