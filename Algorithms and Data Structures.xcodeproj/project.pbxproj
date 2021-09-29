@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A63E4622703500900B715C4 /* homeWork5.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A63E4612703500900B715C4 /* homeWork5.c */; };
+		7A63E4652703534E00B715C4 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A63E4642703534E00B715C4 /* Stack.c */; };
+		7A63E4682703989A00B715C4 /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A63E4672703989A00B715C4 /* Queue.c */; };
 		7A9DA85F26F25DCD006E007E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A9DA85E26F25DCD006E007E /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7A63E4602703500900B715C4 /* homeWork5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeWork5.h; sourceTree = "<group>"; };
+		7A63E4612703500900B715C4 /* homeWork5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = homeWork5.c; sourceTree = "<group>"; };
+		7A63E4632703534E00B715C4 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		7A63E4642703534E00B715C4 /* Stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
+		7A63E4672703989A00B715C4 /* Queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Queue.c; sourceTree = "<group>"; };
 		7A9DA85B26F25DCD006E007E /* Algorithms and Data Structures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithms and Data Structures"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9DA85E26F25DCD006E007E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +46,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A63E45F27034FF300B715C4 /* Home Works */ = {
+			isa = PBXGroup;
+			children = (
+				7A63E46627038EA200B715C4 /* HW5 */,
+			);
+			path = "Home Works";
+			sourceTree = "<group>";
+		};
+		7A63E46627038EA200B715C4 /* HW5 */ = {
+			isa = PBXGroup;
+			children = (
+				7A63E4672703989A00B715C4 /* Queue.c */,
+				7A63E4632703534E00B715C4 /* Stack.h */,
+				7A63E4642703534E00B715C4 /* Stack.c */,
+				7A63E4602703500900B715C4 /* homeWork5.h */,
+				7A63E4612703500900B715C4 /* homeWork5.c */,
+			);
+			path = HW5;
+			sourceTree = "<group>";
+		};
 		7A9DA85226F25DCD006E007E = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				7A9DA85E26F25DCD006E007E /* main.c */,
+				7A63E45F27034FF300B715C4 /* Home Works */,
 			);
 			path = "Algorithms and Data Structures";
 			sourceTree = "<group>";
@@ -118,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A63E4652703534E00B715C4 /* Stack.c in Sources */,
+				7A63E4682703989A00B715C4 /* Queue.c in Sources */,
 				7A9DA85F26F25DCD006E007E /* main.c in Sources */,
+				7A63E4622703500900B715C4 /* homeWork5.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
