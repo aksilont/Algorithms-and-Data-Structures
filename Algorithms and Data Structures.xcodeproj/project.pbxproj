@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A8734CA2710310000943014 /* homeWork8.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A8734C92710310000943014 /* homeWork8.c */; };
 		7A9DA85F26F25DCD006E007E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A9DA85E26F25DCD006E007E /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7A8734C82710310000943014 /* homeWork8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeWork8.h; sourceTree = "<group>"; };
+		7A8734C92710310000943014 /* homeWork8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = homeWork8.c; sourceTree = "<group>"; };
 		7A9DA85B26F25DCD006E007E /* Algorithms and Data Structures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithms and Data Structures"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9DA85E26F25DCD006E007E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +41,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A8734C6271030BD00943014 /* Home Works */ = {
+			isa = PBXGroup;
+			children = (
+				7A8734C7271030C300943014 /* HW 8 */,
+			);
+			path = "Home Works";
+			sourceTree = "<group>";
+		};
+		7A8734C7271030C300943014 /* HW 8 */ = {
+			isa = PBXGroup;
+			children = (
+				7A8734C82710310000943014 /* homeWork8.h */,
+				7A8734C92710310000943014 /* homeWork8.c */,
+			);
+			path = "HW 8";
+			sourceTree = "<group>";
+		};
 		7A9DA85226F25DCD006E007E = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				7A9DA85E26F25DCD006E007E /* main.c */,
+				7A8734C6271030BD00943014 /* Home Works */,
 			);
 			path = "Algorithms and Data Structures";
 			sourceTree = "<group>";
@@ -118,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A8734CA2710310000943014 /* homeWork8.c in Sources */,
 				7A9DA85F26F25DCD006E007E /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
